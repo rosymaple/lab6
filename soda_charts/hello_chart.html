@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.6/dist/chart.umd.min.js"></script>
+        <!-- we want hello_chat.js to load after chart.min.js and the rest of the html. so we can use async defer...
+        to make it run last. our script will be the last running on this page -->
+        <script async defer src="hello_chart.js"></script>
+    </head>
+
+
+    <body>
+
+        <h1>Unscientific survey of soda preferences</h1>
+
+        <canvas id="soda_chart"></canvas>
+
+    </body>
+</html>
+

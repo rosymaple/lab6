@@ -12,6 +12,9 @@
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.6/dist/chart.umd.min.js"></script>
+
+
     <link rel="stylesheet" href="styles.css" type="text/css">
 
     <script async defer src="bridge.js"></script>
@@ -21,10 +24,14 @@
 
 <!-- use leaflet JS to make a map of US -->
 <!-- draw one icon for each of the 5 bridges -->
-<h1>One of the longest bridges in the US!!!</h1>
+<h1>The Five Longest Bridges in the US</h1>
 
 <div id="bridge-map"></div>
 
+<h1>Bar Chart</h1>
+
+<!-- displays bar chart on our webpage -->
+<canvas id="bar-chart" style="width: 600px; height: 400px;"></canvas>
 
 </body>
 </html>
